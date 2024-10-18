@@ -1,6 +1,6 @@
 import { Gite, GitHub, LinkedIn } from '@mui/icons-material';
 import React, { useState, useRef } from 'react';
-import logo from '../Assets/react.svg'; // Adjust path according to your project structure
+// import logo from '../Assets/react.svg'; // Adjust path according to your project structure
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -38,7 +38,7 @@ const Navbar = () => {
           <div className="flex flex-wrap items-center">
             <div className="w-auto">
               <a href="#">
-                <img src={logo} alt="Zanrly Logo" className="h-8 w-8" /> {/* Adjust class for size */}
+                {/* <img src={logo} alt="Zanrly Logo" className="h-8 w-8" /> Adjust class for size */}
               </a>
             </div>
           </div>
