@@ -1,5 +1,5 @@
 import React from "react";
-// import formalImage from '../Assets/Formal.png'; // Ensure this path is correct
+import formalImage from '../Assets/Formal.png'; // Ensure this path is correct
 
 const AboutUs = () => {
     return (
@@ -45,7 +45,7 @@ const AboutUs = () => {
                         />
                         <img
                             className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110"
-                            // src={formalImage}
+                            src={formalImage}
                             alt="Santosh Bohara"
                         />
                     </div>

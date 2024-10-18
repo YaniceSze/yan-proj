@@ -1,6 +1,6 @@
 import { Gite, GitHub, LinkedIn } from '@mui/icons-material';
 import React, { useState, useRef } from 'react';
-import logo from '../Assets/icon.ico'; // Adjust path according to your project structure
+import logo from '../Assets/react.svg'; // Adjust path according to your project structure
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
